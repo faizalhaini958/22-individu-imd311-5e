@@ -1,0 +1,32 @@
+p
+    {
+        color: green;
+    }
+
+table
+    {
+        border-collapse: collapse;
+        border-color: black;
+        text-align: center;
+    }
+
+tr,td,th
+    {
+        border:1px solid;
+        padding: 4px;
+    }
+
+tr  
+    {
+        background-color: darkgrey;
+    }
+
+tr:nth-child(even)
+    {
+        background-color: gainsboro;
+    }
+
+tr:hover
+    {
+        background-color: gold;
+    }
